@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.section_settings {
+	height: 100vh;
+	width: auto;
+	padding: 2rem 6rem;
+}
+
+.gradient {
+	background: linear-gradient(112.46deg, #25a38c 0%, #112320 98.84%);
+}
+
+@media screen and (max-width: 1225px) {
+	.section_settings {
+		height: auto;
+		width: 100vw;
+		padding: 0;	
+	}
+}
+
+.mainBg {
+	background-color: #128c76 !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
