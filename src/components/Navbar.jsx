@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.webp";
 import menu from "../assets/icons/menu.webp";
 import close from "../assets/icons/close.webp";
@@ -23,48 +23,51 @@ const Navbar = () => {
 						</a>
 						<div className="hidden md:block">
 							<div className="ml-10 flex items-baseline space-x-4">
-								<Link
+								<NavLink
 									to={`/`}
-									className={linkClass}
+									className={({ isActive }) =>
+										`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+									}
 									onClick={() => setIsOpen(false)}
 								>
 									Home
-								</Link>
-								<a
-									href="#siscomps"
-									className={linkClass}
+								</NavLink>
+								<NavLink
+									to="/governance"
+									className={({ isActive }) =>
+										`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+									}
 									onClick={() => setIsOpen(false)}
 								>
-									Sister Companies
-								</a>
-								<a
-									href="#services"
-									className={linkClass}
-									onClick={() => setIsOpen(false)}
-								>
-									Services
-								</a>
-								<a
-									href="#governance"
-									className={linkClass}
+									Governance
+								</NavLink>
+								<NavLink
+									to="/about"
+									className={({ isActive }) =>
+										`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+									}
 									onClick={() => setIsOpen(false)}
 								>
 									About Us
-								</a>
-								<Link
+								</NavLink>
+								<NavLink
 									to="/ceo-message"
-									className={linkClass}
+									className={({ isActive }) =>
+										`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+									}
 									onClick={() => setIsOpen(false)}
 								>
 									CEO Message
-								</Link>
-								<Link
+								</NavLink>
+								<NavLink
 									to="/contact"
-									className={linkClass}
+									className={({ isActive }) =>
+										`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+									}
 									onClick={() => setIsOpen(false)}
 								>
 									Contact Us
-								</Link>
+								</NavLink>
 							</div>
 						</div>
 					</div>
@@ -93,44 +96,42 @@ const Navbar = () => {
 				className={`md:hidden ${isOpen ? "block" : "hidden"} id="mobile-menu`}
 			>
 				<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
-					<Link to={`/`} className={linkClass} onClick={() => setIsOpen(false)}>
+					<NavLink
+						to={`/`}
+						className={({ isActive }) =>
+							`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+						}
+						onClick={() => setIsOpen(false)}
+					>
 						Home
-					</Link>
-					<a
-						href="#siscomps"
-						className={linkClass}
-						onClick={() => setIsOpen(false)}
-					>
-						Sister Companies
-					</a>
-					<a
-						href="#services"
-						className={linkClass}
-						onClick={() => setIsOpen(false)}
-					>
-						Services
-					</a>
-					<a
+					</NavLink>
+					<NavLink
 						href="#governance"
-						className={linkClass}
+						className={({ isActive }) =>
+							`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+						}
 						onClick={() => setIsOpen(false)}
 					>
 						About Us
-					</a>
-					<Link
+					</NavLink>
+					<NavLink
 						to="/ceo-message"
-						className={linkClass}
+						className={({ isActive }) =>
+							`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+						}
 						onClick={() => setIsOpen(false)}
 					>
 						CEO Message
-					</Link>
-					<Link
+					</NavLink>
+					<NavLink
 						to="/contact"
-						className={linkClass}
+						className={({ isActive }) =>
+							`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+						}
 						onClick={() => setIsOpen(false)}
 					>
 						Contact Us
-					</Link>
+					</NavLink>
 				</div>
 			</div>
 		</nav>
