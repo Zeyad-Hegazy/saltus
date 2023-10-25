@@ -19,7 +19,7 @@ const ContactForm = () => {
 	};
 
 	return (
-		<div className="section_settings flex flex-col sm:flex-row justify-center items-center xl:items-start gap-[5rem] sm:gap-[10rem]">
+		<section className="section_settings flex flex-col sm:flex-row justify-center items-center xl:items-start gap-[5rem] sm:gap-[10rem]">
 			<div className="w-[60%] h-full flex justify-center items-center">
 				<img src={mail} alt="mail image" className="w-full h-auto" />
 			</div>
@@ -62,7 +62,7 @@ const ContactForm = () => {
 					</button>
 				</form>
 			</div>
-		</div>
+		</section>
 	);
 };
 
