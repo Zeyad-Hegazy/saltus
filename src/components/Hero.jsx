@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
 	return (
 		<section className="h-[90vh] bghero bg-cover xl:bg-contain bg-no-repeat flex justify-start items-center sm:items-start">
@@ -9,9 +11,11 @@ const Hero = () => {
 					<p className="text-[15px] xl:text-[20px] xl:leading-[32px] text-[#FFFFFF] mt-[1rem] sm:mt-[2rem]">
 						Browse vetted investment offerings
 					</p>
-					<button className="h-auto w-auto py-2 px-6 md:px-[4rem] md:py-4 mainBg hover:bg-[#0c5f50] mt-[1rem] sm:mt-[2rem] rounded-[10px] text-[#FFFFFF] text-[16px] font-semibold">
-						Contact Us
-					</button>
+					<Link to="/contact">
+						<button className="h-auto w-auto py-2 px-6 md:px-[4rem] md:py-4 mainBg hover:bg-[#0c5f50] mt-[1rem] sm:mt-[2rem] rounded-[10px] text-[#FFFFFF] text-[16px] font-semibold">
+							Contact Us
+						</button>
+					</Link>
 				</div>
 			</div>
 		</section>

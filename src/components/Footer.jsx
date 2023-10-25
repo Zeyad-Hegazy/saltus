@@ -1,9 +1,9 @@
 import logo from "../assets/images/logo.webp";
 import { Link } from "react-router-dom";
 import backToTop from "../assets/images/Backtotop.webp";
-import facebook from "../assets/images/facebook.webp";
-import twitter from "../assets/images/twitter.webp";
-import instagram from "../assets/images/instagram.webp";
+import facebook from "../assets/images/001-facebook.png";
+import twitter from "../assets/images/Path.png";
+import instagram from "../assets/images/004-instagram.png";
 import location from "../assets/icons/location.png";
 import sms from "../assets/icons/sms.png";
 
@@ -49,32 +49,36 @@ const Footer = () => {
 						/>
 					</div>
 					<div className="w-full flex flex-col lg:flex-row justify-between items-center gap-[3rem] xl:gap-0 px-0 lg:px-[100px]">
-						<div className="flex items-center gap-6 w-24 ml-0 lg:ml-[4rem]">
-							<img
-								src={facebook}
-								alt="facebook icon"
-								className="w-[24px] h-[24px]"
-							/>
-							<img
-								src={twitter}
-								alt="twitter icon"
-								className="w-[24px] h-[24px]"
-							/>
-							<img
-								src={instagram}
-								alt="instagram icon"
-								className="w-[24px] h-[24px]"
-							/>
+						<div className="flex justify-center items-center gap-6 w-24 ml-0 lg:ml-[4rem]">
+							<a href="" className="w-[35px] h-[35px]" target="_blank">
+								<img
+									src={facebook}
+									alt="facebook icon"
+									className="w-full h-full object-contain"
+								/>
+							</a>
+							<a href="" className="w-[70px] h-[70px]" target="_blank">
+								<img
+									src={twitter}
+									alt="facebook icon"
+									className="w-full h-full object-contain"
+								/>
+							</a>
+							<a href="" className="w-[70px] h-[70px]" target="_blank">
+								<img
+									src={instagram}
+									alt="facebook icon"
+									className="w-full h-full object-contain"
+								/>
+							</a>
 						</div>
-						<Link
-							to="/contact-us"
-							className="w-full order-[-1] lg:order-none flex justify-center items-center"
-							onClick={() => window.scrollTo(0, 0)}
-						>
-							<button className="ml-0 lg:ml-[70px] w-full sm:w-[60%] xl:w-[40%] px-[4rem] py-2 bg-[#0c5f50] text-white font-semibold rounded-[15px]">
-								Contact us
-							</button>
-						</Link>
+						<div className="pl-0 lg:pl-[5rem] w-full order-[-1] lg:order-none flex justify-center items-center">
+							<Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+								<button className="w-full xl:w-full px-[4rem] xl:px-[10rem] py-4 bg-[#0c5f50] text-white font-semibold rounded-[15px]">
+									Contact us
+								</button>
+							</Link>
+						</div>
 						<div className="text-[#333333] mb-[5rem] lg:mb-0">
 							<p className="w-full flex items-center gap-4 text-[#0c5f50]">
 								<img

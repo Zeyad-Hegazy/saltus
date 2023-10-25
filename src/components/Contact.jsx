@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import cuate from "../assets/images/cuate.webp";
 
 const Contact = () => {
@@ -11,9 +12,11 @@ const Contact = () => {
 					Whether expanding or opening a brand-new concept, we make it easy to
 					raise money from thousands of local investors.
 				</p>
-				<button className="mainBg hover:bg-[#0c5f50] py-4 text-white font-semibold rounded-[15px]">
-					Keep In Touch
-				</button>
+				<Link to="/contact">
+					<button className="w-full mainBg hover:bg-[#0c5f50] py-4 text-white font-semibold rounded-[15px]">
+						Keep In Touch
+					</button>
+				</Link>
 			</div>
 			<div className="order-[-1] md:order-1 w-[70%] md:w-[30%]">
 				<img src={cuate} alt="cuate" className="w-full h-full object-contain" />
