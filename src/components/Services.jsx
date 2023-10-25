@@ -1,7 +1,7 @@
-import contract from "../assets/images/contract.png";
-import conditioner from "../assets/images/conditioner.png";
-import food from "../assets/images/food.png";
-import travelling from "../assets/images/Travelling.png";
+import contract from "../assets/images/contract.webp";
+import conditioner from "../assets/images/conditioner.webp";
+import food from "../assets/images/food.webp";
+import travelling from "../assets/images/Travelling.webp";
 
 const Card = ({ title, icon, description, gradient }) => {
 	return (
@@ -18,14 +18,18 @@ const Card = ({ title, icon, description, gradient }) => {
 				>
 					{title}
 				</h3>
-				<img src={icon} alt="contract" className="w-16 md:w-18 xl:w-24" />
+				<img
+					src={icon}
+					alt="contract"
+					className="w-16 h-16 md:w-18 md:h-18 xl:w-24 xl:h-24"
+				/>
 			</div>
 			<div className="w-full mt-4">
 				<p
 					className={`${
 						gradient ? " text-[#FFFFFF]" : "text-[#818181]"
 					} text-[17px] sm:text-[24px] leading-[30px] sm:leading-[40px]`}
-				>
+				>س
 					{description}
 				</p>
 			</div>

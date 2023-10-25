@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import close from "../../assets/icons/close.png";
+import close from "../../assets/icons/close.webp";
 
 const Backdrop = ({ onClick, children }) => {
 	return (

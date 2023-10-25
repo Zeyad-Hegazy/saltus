@@ -1,5 +1,5 @@
 import { useState } from "react";
-import mail from "../assets/images/mail.png";
+import mail from "../assets/images/mail.webp";
 
 const ContactForm = () => {
 	const [formData, setFormData] = useState({

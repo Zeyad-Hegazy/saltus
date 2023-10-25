@@ -1,4 +1,4 @@
-import cuate from "../assets/images/cuate.png";
+import cuate from "../assets/images/cuate.webp";
 
 const Contact = () => {
 	return (

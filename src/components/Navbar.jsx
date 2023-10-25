@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
-import menu from "../assets/icons/menu.png";
-import close from "../assets/icons/close.png";
+import logo from "../assets/images/logo.webp";
+import menu from "../assets/icons/menu.webp";
+import close from "../assets/icons/close.webp";
 
 const linkClass =
 	"text-[#333333] hover:bg-[#128c76] hover:text-white px-3 py-2 rounded-md text-[16px] font-medium focus:bg-[#128c76] focus:text-white";

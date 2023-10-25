@@ -1,9 +1,9 @@
-import logo from "../assets/images/logo.png";
-import backToTop from "../assets/images/Backtotop.png";
-import facebook from "../assets/images/facebook.png";
-import twitter from "../assets/images/twitter.png";
-import instagram from "../assets/images/instagram.png";
-import shape from "../assets/images/Shape.png";
+import logo from "../assets/images/logo.webp";
+import backToTop from "../assets/images/Backtotop.webp";
+import facebook from "../assets/images/facebook.webp";
+import twitter from "../assets/images/twitter.webp";
+import instagram from "../assets/images/instagram.webp";
+import shape from "../assets/images/Shape.webp";
 
 const Footer = () => {
 	return (

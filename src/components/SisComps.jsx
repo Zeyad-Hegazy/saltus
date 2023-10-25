@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-import shape from "../assets/images/Shape.png";
-import nextComp from "../assets/images/nextComp.png";
-import lazarComp from "../assets/images/lazarComp.png";
-import admsComp from "../assets/images/admsComp.png";
-import graph from "../assets/images/Graph.png";
+import shape from "../assets/images/Shape.webp";
+import nextComp from "../assets/images/nextComp.webp";
+import lazarComp from "../assets/images/lazarComp.webp";
+import admsComp from "../assets/images/admsComp.webp";
+import graph from "../assets/images/Graph.webp";
 import CardModal from "../UI/card-portal/CardPortal";
 
 const Card = ({ image, title, description, onClick }) => {
 	return (
-		<div className="h-auto w-[320px] rounded-[15px] shadow-2xl">
+		<div className="h-auto w-[320px] rounded-[15px] shadow-2xl transition-all duration-100 hover:translate-y-[-10px] ">
 			<div className="h-[12rem] w-full flex justify-center items-center mb-4">
 				<img src={image} alt={title} className="h-full w-full object-contain" />
 			</div>
