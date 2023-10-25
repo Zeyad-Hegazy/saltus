@@ -56,7 +56,7 @@ const ContactForm = () => {
 					></textarea>
 					<button
 						type="submit"
-						className="w-full py-4 text-white font-bold text-[40px] mainBg rounded-[15px]"
+						className="w-full py-2 text-white font-bold text-[30px] bg-[#128c76] rounded-[15px]"
 					>
 						Send
 					</button>

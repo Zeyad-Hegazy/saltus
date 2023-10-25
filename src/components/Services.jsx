@@ -28,8 +28,8 @@ const Card = ({ title, icon, description, gradient }) => {
 				<p
 					className={`${
 						gradient ? " text-[#FFFFFF]" : "text-[#818181]"
-					} text-[17px] sm:text-[24px] leading-[30px] sm:leading-[40px]`}
-				>س
+					} text-[17px] sm:text-[25px] leading-[30px] sm:leading-[40px]`}
+				>
 					{description}
 				</p>
 			</div>
@@ -61,17 +61,18 @@ const Services = () => {
 				<Card
 					title="AIRCONDITIONING"
 					icon={conditioner}
-					description="Contracting services refer to various services that Saltus Integrated holding company contracts from external vendors, suppliers, or subsidiaries within the corporate group.These services can range from construction and maintenance to consulting and technology services."
+					description="Company provides integrated engineering solutions to the general contracting sector in the field of air using modern technologies and high-quality materials to ensure the provision of air conditioning systems that meet the needs of the local community with efficiency and quality."
 				/>
 				<Card
 					title="FOOD TRADING"
 					icon={food}
-					description="Contracting services refer to various services that Saltus Integrated holding company contracts from external vendors, suppliers, or subsidiaries within the corporate group.These services can range from construction and maintenance to consulting and technology services."
+					description="Food Serveces that import and distribute foodstuffs in the Kingdom of Saudi Arabia.It aims to import food supplies of all kinds and distribute them within the Kingdom of Saudi Arabia and the Arab Gulf countries. It also works in the field of importing fresh and frozen fruits and vegetables of all kinds."
 				/>
 				<Card
 					title="TRAVEL AGENCY"
 					icon={travelling}
-					description="Contracting services refer to various services that Saltus Integrated holding company contracts from external vendors, suppliers, or subsidiaries within the corporate group.These services can range from construction and maintenance to consulting and technology services."
+					description="Travel servieces plays a vital role in the tourism industry, promoting tourist destinations, and providing distinctive travel experiences to its clients from all over the world through the best travel solutions for business, leisure, and treatment that combine high-quality services with thoughtful costs.	"
+					gradient
 				/>
 			</div>
 		</section>

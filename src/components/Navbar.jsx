@@ -5,7 +5,7 @@ import menu from "../assets/icons/menu.webp";
 import close from "../assets/icons/close.webp";
 
 const linkClass =
-	"text-[#333333] hover:bg-[#128c76] hover:text-white px-3 py-2 rounded-md text-[16px] font-medium focus:bg-[#128c76] focus:text-white";
+	"text-[#333333] hover:bg-[#128c76] hover:text-white px-3 py-2 rounded-md text-[16px] font-medium focus:bg-[#128c76] focus:text-white duration-500";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,6 @@ const Navbar = () => {
 	const handleToggle = () => {
 		setIsOpen((prevState) => !prevState);
 	};
-
 	return (
 		<nav className="shadow-xl">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +49,7 @@ const Navbar = () => {
 									className={linkClass}
 									onClick={() => setIsOpen(false)}
 								>
-									Governance
+									About Us
 								</a>
 								<Link
 									to="/ceo-message"
@@ -116,7 +115,7 @@ const Navbar = () => {
 						className={linkClass}
 						onClick={() => setIsOpen(false)}
 					>
-						Governance
+						About Us
 					</a>
 					<Link
 						to="/ceo-message"

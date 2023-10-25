@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import close from "../../assets/icons/close.webp";
+import close from "../../assets/icons/close.png";
 
 const Backdrop = ({ onClick, children }) => {
 	return (
@@ -25,7 +25,7 @@ const CardOverlay = ({ card, onClick }) => {
 				<img
 					src={card.image}
 					alt="image sister company"
-					className="w-[6rem] h-[6rem] sm:w-[10rem] sm:h-[10rem] xl:w-[320px] xl:h-[12rem] rounded-[15px] shadow-lg"
+					className="w-[6rem] h-[6rem] sm:mr-[60px] sm:w-[10rem] sm:h-[10rem] xl:w-[320px] xl:h-[12rem] rounded-[15px] shadow-lg"
 				/>
 				<div>
 					<span className="block text-[#818181] text-[14px]">Role:</span>

@@ -47,7 +47,7 @@ const Footer = () => {
 						className="w-[12px] h-[12px]"
 					/>
 				</div>
-				<button className="w-[50%] md:w-[30%] py-4 mainBg text-white font-semibold rounded-[15px]">
+				<button className="w-[50%] md:w-[30%] py-4 mainBg hover:bg-[#0c5f50] text-white font-semibold rounded-[15px]">
 					Contact us
 				</button>
 			</div>

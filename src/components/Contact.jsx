@@ -11,7 +11,7 @@ const Contact = () => {
 					Whether expanding or opening a brand-new concept, we make it easy to
 					raise money from thousands of local investors.
 				</p>
-				<button className="mainBg py-4 text-white font-semibold rounded-[15px]">
+				<button className="mainBg hover:bg-[#0c5f50] py-4 text-white font-semibold rounded-[15px]">
 					Keep In Touch
 				</button>
 			</div>

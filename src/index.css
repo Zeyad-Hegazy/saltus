@@ -19,12 +19,16 @@
 	.section_settings {
 		height: auto;
 		width: 100vw;
-		padding: 0;	
+		padding: 0;
 	}
 }
 
 .mainBg {
-	background-color: #128c76 !important;
+	background-color: #128c76;
+}
+
+.darkerbg {
+	background-color: #0c5f50;
 }
 
 @tailwind base;
