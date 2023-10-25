@@ -23,6 +23,10 @@
 	}
 }
 
+.bghero {
+	background-image: url("./assets//images/Img.webp");
+}
+
 .mainBg {
 	background-color: #128c76;
 }
