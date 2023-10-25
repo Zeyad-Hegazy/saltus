@@ -21,7 +21,7 @@ const InvesCard = ({ gradient, p }) => {
 					: gradient
 					? "gradient"
 					: "bg-[white]"
-			} flex justify-center items-center py-6 w-full lg:w-[30%] h-[409px] my-8 lg:m-0 text-center rounded-[15px] shadow-2xl px-4 transition-all duration-500`}
+			} flex justify-center items-center py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] my-8 lg:m-0 text-center rounded-[15px] shadow-2xl px-4 transition-all duration-500`}
 			onMouseEnter={handleMouseEnter}
 			onMouseLeave={handleMouseLeave}
 		>
@@ -66,8 +66,8 @@ const About = () => {
 					facilitates mergers and acquisitions between companies.
 				</p>
 			</div>
-			<div className="flex flex-col lg:flex-row justify-between items-center flex-wrap mt-[8rem]">
-				<div className="gradient flex flex-col justify-center items-center py-6 w-full lg:w-[30%] h-[409px] text-center rounded-[15px]">
+			<div className="flex justify-between items-center flex-wrap mt-[8rem]">
+				<div className="gradient flex flex-col justify-center items-center px-4 py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] text-center rounded-[15px]">
 					<h3 className="text-[35px] md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
 						MISSION
 					</h3>
@@ -76,7 +76,7 @@ const About = () => {
 						of finance and business.
 					</p>
 				</div>
-				<div className="gradient flex flex-col justify-center items-center py-6 w-full lg:w-[30%] h-[409px] text-center rounded-[15px] my-8 lg:m-0 lg:translate-y-[-4rem]">
+				<div className="gradient flex flex-col justify-center items-center px-4 py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] text-center rounded-[15px] my-8 lg:m-0 lg:translate-y-[-4rem]">
 					<h3 className="text-[35px] md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
 						VISION
 					</h3>
@@ -84,7 +84,7 @@ const About = () => {
 						Enhancing local content in the fields of industry and trade.
 					</p>
 				</div>
-				<div className="gradient flex flex-col justify-center items-center py-6 w-full lg:w-[30%] h-[409px] text-center rounded-[15px]">
+				<div className="gradient flex flex-col justify-center items-center px-4 py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] text-center rounded-[15px]">
 					<h3 className="text-[35px] md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
 						COREVALUES
 					</h3>
@@ -96,11 +96,11 @@ const About = () => {
 			</div>
 
 			<div className="mt-[8rem]">
-				<h2 className="text-center text-[50px] leading-[24px] text-[#000000] font-[700]">
+				<h2 className="text-center text-[30px] sm:text-[50px] leading-[24px] text-[#000000] font-[700]">
 					INVESTMENTS
 				</h2>
 				<div className="mt-[6rem]">
-					<h3 className="text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
+					<h3 className="text-center lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
 						PRIVATE EQUITY
 					</h3>
 					<div className="flex justify-between items-center flex-wrap mt-[4rem]">
@@ -119,7 +119,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="mt-[6rem]">
-					<h3 className="text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
+					<h3 className="text-center lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
 						DIRECT INVESTMENTS
 					</h3>
 					<div className="flex justify-between items-center flex-wrap mt-[4rem]">
@@ -138,7 +138,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="mt-[6rem] mb-[6rem]">
-					<h3 className="text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
+					<h3 className="text-center lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
 						PUBLIC EQUITY
 					</h3>
 					<div className="flex justify-between items-center flex-wrap mt-[4rem]">

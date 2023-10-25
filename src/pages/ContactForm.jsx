@@ -19,12 +19,12 @@ const ContactForm = () => {
 	};
 
 	return (
-		<section className="section_settings flex flex-col sm:flex-row justify-center items-center xl:items-start gap-[5rem] sm:gap-[10rem]">
-			<div className="w-[60%] h-full flex justify-center items-center">
+		<section className="section_settings flex flex-col sm:flex-row justify-center items-center xl:items-start gap-[5rem] sm:gap-[10rem] lg:px-[5rem]">
+			<div className="hidden w-[60%] h-full lg:flex justify-center items-center">
 				<img src={mail} alt="mail image" className="w-full h-auto" />
 			</div>
-			<div className="w-full sm:w-[70%] xl:w-[50%] text-center">
-				<h3 className="text-[60px] text-[#128C76] font-bold mb-4">
+			<div className="p-6 lg:p-0 w-full sm:w-[70%] xl:w-[50%] text-center">
+				<h3 className="text-[40px] text-[#128C76] font-bold mb-4">
 					Get In Touch!
 				</h3>
 				<form className="flex flex-col gap-6" onSubmit={submitHandler}>

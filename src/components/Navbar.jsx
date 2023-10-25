@@ -5,7 +5,7 @@ import menu from "../assets/icons/menu.webp";
 import close from "../assets/icons/close.webp";
 
 const linkClass =
-	"text-[#333333] hover:bg-[#128c76] hover:text-white px-3 py-2 rounded-md text-[16px] font-medium focus:bg-[#128c76] focus:text-white duration-500";
+	"text-[#333333] hover:bg-[#128c76] hover:text-white px-3 py-2 rounded-md text-[16px] font-medium duration-500";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -106,7 +106,16 @@ const Navbar = () => {
 						Home
 					</NavLink>
 					<NavLink
-						href="#governance"
+						to="/governance"
+						className={({ isActive }) =>
+							`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
+						}
+						onClick={() => setIsOpen(false)}
+					>
+						Governance
+					</NavLink>
+					<NavLink
+						to="/about"
 						className={({ isActive }) =>
 							`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
 						}
