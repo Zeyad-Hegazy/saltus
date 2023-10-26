@@ -40,7 +40,7 @@ export const SubsidObjs = [
 		image: Athmar_image,
 		title: "Athmar Air Conditioning",
 		mini_description:
-			"Athmar Company provides integrated engineering solutions to the general contracting sector in the field of air using modern technologies and high-quality materials to ensure the provision of air conditioning systems that meet the needs of the local community with efficiency and quality through a work team that has sufficient experience in integrated engineering solutions for air conditioning systems for homes, towers and commercial.",
+			"Athmar Company provides integrated engineering solutions to the general contracting sector in the field of air using modern technologies and high-quality materials to ensure the provision of air conditioning systems.",
 		full_description:
 			"Athmar Company provides integrated engineering solutions to the general contracting sector in the field of air using modern technologies and high-quality materials to ensure the provision of air conditioning systems that meet the needs of the local community with efficiency and quality through a work team that has sufficient experience in integrated engineering solutions for air conditioning systems for homes, towers and commercial complexes, private and government buildings. The company undertakes the design, installation and maintenance of cooling and ai conditioning systems in homes, commercial and industrial buildings and corporat headquarters. Our services also include installation, maintenance, repair and improvemen of cooling, ventilation and air conditioning systems and providing environmenta solutions to increase energy efficiency.",
 	},
