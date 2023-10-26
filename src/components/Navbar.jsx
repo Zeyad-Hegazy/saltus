@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.webp";
 import menu from "../assets/icons/menu.webp";
 import close from "../assets/icons/close.webp";
@@ -18,9 +18,9 @@ const Navbar = () => {
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex items-center justify-between h-16">
 					<div className="flex items-center justify-between w-full h-full">
-						<a href="#" className="flex-shrink-0 text-white h-12 w-12">
+						<Link to="/" className="flex-shrink-0 text-white h-12 w-12">
 							<img src={logo} alt="" className="w-full h-full object-contain" />
-						</a>
+						</Link>
 						<div className="hidden md:block">
 							<div className="ml-10 flex items-baseline space-x-4">
 								<NavLink
