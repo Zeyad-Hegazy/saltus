@@ -86,7 +86,7 @@ const About = () => {
 				</div>
 				<div className="gradient flex flex-col justify-center items-center px-4 py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] text-center rounded-[15px]">
 					<h3 className="text-[35px] md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
-						COREVALUES
+						CORE VALUES
 					</h3>
 					<p className="text-[30px] md:text-[20px] xl:text-[30px] leading-[50px] text-white font-[400]">
 						Diversity and integration , Partnership and Trust , Transparency and

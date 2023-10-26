@@ -1,11 +1,11 @@
 const CeoMessage = () => {
 	return (
-		<section className="p-0 sm:p-[4rem]">
-			<div className="text-center sm:text-left">
-				<h1 className="mb-[3rem] mt-[2rem] text-[50px] text-[#000000] font-semibold">
+		<section className="p-0 sm:p-[4rem] ceoBg">
+			<div className="text-center lg:text-left mt-[-2rem]">
+				<h1 className="mb-[1rem] mt-[2rem] pt-[2rem] text-[25px] lg:text-[40px] text-[#FFFFFF] font-semibold">
 					CEO Message
 				</h1>
-				<p className="text-[30px] text-[#818181]">
+				<p className="px-[1rem] lg:px-0 text-[18px] lg:text-[25px]  text-[#FFFFFF] text-justify">
 					With the faith that we feel in the role assigned to us as one of the
 					promising companies, and by constantly keeping pace with the rapid
 					pace towards which the Kingdom’s Vision 2030 is heading, it was

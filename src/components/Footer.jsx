@@ -1,9 +1,6 @@
 import logo from "../assets/images/logo.webp";
 import { Link } from "react-router-dom";
 import backToTop from "../assets/images/Backtotop.webp";
-import facebook from "../assets/images/001-facebook.png";
-import twitter from "../assets/images/Path.png";
-import instagram from "../assets/images/004-instagram.png";
 import location from "../assets/icons/location.png";
 import sms from "../assets/icons/sms.png";
 
@@ -26,7 +23,7 @@ const Footer = () => {
 									<p className="font-medium text-center">About us</p>
 								</Link>
 								<Link to="/ceo-message" onClick={() => window.scrollTo(0, 0)}>
-									<p className="font-medium text-center">Ceo Message</p>
+									<p className="font-medium text-center">CEO Message</p>
 								</Link>
 								<Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
 									<p className="font-medium text-center">Contact Us</p>
@@ -40,7 +37,6 @@ const Footer = () => {
 								<p>Travel Agency</p>
 							</div>
 						</div>
-
 						<img
 							src={backToTop}
 							alt="back to top image"
@@ -48,31 +44,8 @@ const Footer = () => {
 							onClick={() => window.scrollTo(0, 0)}
 						/>
 					</div>
-					<div className="w-full flex flex-col lg:flex-row justify-between items-center gap-[3rem] xl:gap-0 px-0 lg:px-[100px]">
-						<div className="flex justify-center items-center gap-6 w-24 ml-0 lg:ml-[4rem]">
-							<a href="" className="w-[35px] h-[35px]" target="_blank">
-								<img
-									src={facebook}
-									alt="facebook icon"
-									className="w-full h-full object-contain"
-								/>
-							</a>
-							<a href="" className="w-[70px] h-[70px]" target="_blank">
-								<img
-									src={twitter}
-									alt="facebook icon"
-									className="w-full h-full object-contain"
-								/>
-							</a>
-							<a href="" className="w-[70px] h-[70px]" target="_blank">
-								<img
-									src={instagram}
-									alt="facebook icon"
-									className="w-full h-full object-contain"
-								/>
-							</a>
-						</div>
-						<div className="pl-0 lg:pl-[5rem] w-full order-[-1] lg:order-none flex justify-center items-center">
+					<div className="w-full flex flex-col lg:flex-row justify-between items-center gap-[3rem] xl:gap-0 lg:px-[3rem]">
+						<div className="pl-0 order-[-1] lg:order-none flex justify-center items-center">
 							<Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
 								<button className="w-full xl:w-full px-[4rem] xl:px-[10rem] py-4 bg-[#0c5f50] text-white font-semibold rounded-[15px]">
 									Contact us

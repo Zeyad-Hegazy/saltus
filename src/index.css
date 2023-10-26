@@ -14,6 +14,9 @@
 .gradient {
 	background: linear-gradient(112.46deg, #25a38c 0%, #112320 98.84%);
 }
+.reverse-gradient {
+	background: linear-gradient(-67.54deg, #25a38c 0%, #112320 98.84%);
+}
 
 @media screen and (max-width: 1225px) {
 	.section_settings {
@@ -24,7 +27,14 @@
 }
 
 .bghero {
-	background-image: url("./assets//images/Img.webp");
+	background-image: url("./assets//images/newHero.png");
+}
+
+.ceoBg {
+	background-image: url("./assets/images/ceoBG.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .mainBg {
