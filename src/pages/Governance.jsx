@@ -2,7 +2,7 @@ import flagIcon from "../assets/icons/Diplomacy.png";
 import people from "../assets/icons/People.png";
 import audit from "../assets/icons/Audit.png";
 import cyber from "../assets/icons/CyberSecurity.png";
-import community from "../assets/icons/community.png";
+import community from "../assets/icons/Community.png";
 
 const Governance = () => {
 	return (
