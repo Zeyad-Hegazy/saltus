@@ -3,18 +3,18 @@ import conditioner from "../assets/images/conditioner.webp";
 import food from "../assets/images/food.webp";
 import travelling from "../assets/images/Travelling.webp";
 
-const Card = ({ title, icon, description, gradient }) => {
+const Card = ({ title, icon, description, gradient, className }) => {
 	return (
 		<div
 			className={`${
 				gradient ? "gradient" : "bg-white"
-			} shadow-2xl m-4 sm:m-1 p-4 sm:p-8 w-full lg:w-[46%] rounded-[15px] sm:mb-[3rem]`}
+			} shadow-2xl m-4 sm:m-1 p-4 sm:p-8 w-full lg:w-[46%] rounded-[15px] sm:mb-[3rem] ${className}`}
 		>
 			<div className="flex w-full justify-between items-start">
 				<h3
 					className={`${
 						gradient ? " text-[#FFFFFF]" : "text-[#128C76]"
-					} text-[22px] xl:text-[35px] font-semibold`}
+					} text-[22px] xl:text-[35px] font-semibold main-font`}
 				>
 					{title}
 				</h3>
@@ -40,7 +40,7 @@ const Services = () => {
 			id="services"
 		>
 			<div className="text-center pt-12 mx-auto">
-				<h1 className="mb-8 text-[40px] text-[#333333] leading-[64px] font-semibold">
+				<h1 className="mb-8 text-[40px] main-font text-[#333333] leading-[64px] font-semibold">
 					Services
 				</h1>
 				<p className="leading-[32px] text-[24px] w-auto md:w-[700px] text-[#999999]">
@@ -69,6 +69,7 @@ const Services = () => {
 					icon={travelling}
 					description="Travel servieces plays a vital role in the tourism industry, promoting tourist destinations, and providing distinctive travel experiences to its clients from all over the world through the best travel solutions for business, leisure, and treatment.	"
 					gradient
+					className="reverse-gradient"
 				/>
 			</div>
 		</section>

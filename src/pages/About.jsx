@@ -46,7 +46,7 @@ const About = () => {
 	return (
 		<div className="py-[2rem] px-2 lg:px-[6rem] h-auto">
 			<div className="text-center sm:text-left">
-				<h1 className="mb-[3rem] mt-[2rem] text-[50px] text-[#000000] font-semibold">
+				<h1 className="mb-[3rem] main-font mt-[2rem] text-[50px] text-[#000000] font-semibold">
 					About Us
 				</h1>
 				<p className="text-[30px] text-[#818181]">
@@ -68,7 +68,7 @@ const About = () => {
 			</div>
 			<div className="flex justify-between items-center flex-wrap mt-[8rem]">
 				<div className="gradient flex flex-col justify-center items-center px-4 py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] text-center rounded-[15px]">
-					<h3 className="text-[35px] md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
+					<h3 className="text-[35px] main-font md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
 						MISSION
 					</h3>
 					<p className="text-[30px] md:text-[20px] xl:text-[30px] leading-[50px] text-white font-[400]">
@@ -77,7 +77,7 @@ const About = () => {
 					</p>
 				</div>
 				<div className="gradient flex flex-col justify-center items-center px-4 py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] text-center rounded-[15px] my-8 lg:m-0 lg:translate-y-[-4rem]">
-					<h3 className="text-[35px] md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
+					<h3 className="text-[35px] main-font md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
 						VISION
 					</h3>
 					<p className="text-[30px] md:text-[20px] xl:text-[30px] leading-[50px] text-white font-[400]">
@@ -85,7 +85,7 @@ const About = () => {
 					</p>
 				</div>
 				<div className="gradient flex flex-col justify-center items-center px-4 py-6 w-full sm:w-[45%] lg:w-[30%] h-[409px] text-center rounded-[15px]">
-					<h3 className="text-[35px] md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
+					<h3 className="text-[35px] main-font md:text-[20px] xl:text-[35px] leading-[24px] text-white mb-[3rem] font-[700]">
 						CORE VALUES
 					</h3>
 					<p className="text-[30px] md:text-[20px] xl:text-[30px] leading-[50px] text-white font-[400]">
@@ -96,11 +96,11 @@ const About = () => {
 			</div>
 
 			<div className="mt-[8rem]">
-				<h2 className="text-center text-[30px] sm:text-[50px] leading-[24px] text-[#000000] font-[700]">
+				<h2 className="text-center text-[30px] main-font sm:text-[50px] leading-[24px] text-[#000000] font-[700]">
 					INVESTMENTS
 				</h2>
 				<div className="mt-[6rem]">
-					<h3 className="text-center lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
+					<h3 className="text-center main-font lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
 						PRIVATE EQUITY
 					</h3>
 					<div className="flex justify-between items-center flex-wrap mt-[4rem]">
@@ -119,7 +119,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="mt-[6rem]">
-					<h3 className="text-center lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
+					<h3 className="text-center main-font lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
 						DIRECT INVESTMENTS
 					</h3>
 					<div className="flex justify-between items-center flex-wrap mt-[4rem]">
@@ -138,7 +138,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="mt-[6rem] mb-[6rem]">
-					<h3 className="text-center lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
+					<h3 className="text-center main-font lg:text-left text-[#128C76] text-[35px] leading-[24px] font-[700]">
 						PUBLIC EQUITY
 					</h3>
 					<div className="flex justify-between items-center flex-wrap mt-[4rem]">

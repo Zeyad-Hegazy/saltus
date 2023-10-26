@@ -17,10 +17,7 @@ const Navbar = () => {
 		<nav className="shadow-xl">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex items-center justify-between h-16">
-					<div className="flex items-center justify-between w-full h-full">
-						<Link to="/" className="flex-shrink-0 text-white h-12 w-12">
-							<img src={logo} alt="" className="w-full h-full object-contain" />
-						</Link>
+					<div className="flex items-center justify-center w-full h-full">
 						<div className="hidden md:block">
 							<div className="ml-10 flex items-baseline space-x-4">
 								<NavLink
@@ -81,7 +78,7 @@ const Navbar = () => {
 							<img
 								src={menu}
 								alt="menu icon"
-								className={`block h-6 w-6 ${isOpen ? "hidden" : "block"}`}
+								className={`block h-10 w-10 ${isOpen ? "hidden" : "block"}`}
 							/>
 							<img
 								src={close}

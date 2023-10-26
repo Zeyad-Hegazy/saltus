@@ -9,7 +9,7 @@ import Adms_image from "../assets/images/admsComp.webp";
 
 export const SubsidObjs = [
 	{
-		id: 0,
+		id: "Gulf-Minds",
 		image: Gulf_image,
 		title: "Gulf Minds Contracting Company",
 		mini_description:
@@ -18,7 +18,7 @@ export const SubsidObjs = [
 			"Gulf Minds Contracting Company has taken it upon itself to actively participate in building a strong, sustainable economy that meets the needs of national development and the aspirations of the local community through its commitment to creating urban projects in accordance with the quality standards required in the implementation of work, which reflects the company’s ambition. We are committed to continuous improvement and modernization of the building and construction industry and the application of innovative solutions and technologies. New and automated company operations to achieve high quality, operational efficiency and sustainability in its business.",
 	},
 	{
-		id: 1,
+		id: "House-Carriage",
 		image: House_image,
 		title: "House Carriage Company",
 		mini_description:
@@ -27,7 +27,7 @@ export const SubsidObjs = [
 			"House Carriage is considered one of the companies that import and distribute foodstuffs in the Kingdom of Saudi Arabia. It aims to import food supplies of all kinds and distribute them within the Kingdom o Saudi Arabia and the Arab Gulf countries. It also works in the field of importing fres and frozen fruits and vegetables of all kinds The company is interested in selecting products with great care to meet the needs of th local market, as high-quality products are selected. The company also has an experience and efficient sales team and marketing researchers that are consistent with the needs o the market and consumers and their aspirations to continuously raise the company’ efficiency The company is working to build strategic relationships with major logistics companies t cover all regions of the Kingdom and distribute the food products it imports.",
 	},
 	{
-		id: 2,
+		id: "Dimensions-Travel",
 		image: Dimensions_image,
 		title: "Dimensions Travel and Tourism Agency",
 		mini_description:
@@ -36,7 +36,7 @@ export const SubsidObjs = [
 			"Dimensions Travel and Tourism Agency plays a vital role in the tourism industry, promoting tourist destinations, and providing distinctive travel experiences to its clients from all over the world through the best travel solutions for business, leisure, and treatment that combine high-quality services with thoughtful costs, and include travel and tourism services, organizing tourist and medical trips, and reservations. Hotels, restaurants, car rental, organizing sea and air trips, and arranging other recreational and tourist activities.",
 	},
 	{
-		id: 3,
+		id: "Athmar-Air",
 		image: Athmar_image,
 		title: "Athmar Air Conditioning",
 		mini_description:
@@ -48,7 +48,7 @@ export const SubsidObjs = [
 
 export const SisCompsObjs = [
 	{
-		id: 4,
+		id: "Next-Millennium",
 		image: Next_image,
 		title: "Next Millennium",
 		mini_description:
@@ -58,7 +58,7 @@ export const SisCompsObjs = [
 		role: "Marketing & Event Managment",
 	},
 	{
-		id: 5,
+		id: "Lazar",
 		image: Lazar_image,
 		title: "Lazar",
 		mini_description:
@@ -68,7 +68,7 @@ export const SisCompsObjs = [
 		role: "Sanitary Ware , ceramics and Tiles",
 	},
 	{
-		id: 6,
+		id: "Adms",
 		image: Adms_image,
 		title: "Adms",
 		mini_description:

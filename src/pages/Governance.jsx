@@ -14,7 +14,7 @@ const Governance = () => {
 						alt="flag icon"
 						className="h-14 w-14 object-contain"
 					/>
-					<h1 className="text-[40px] text-[#000000] font-semibold">
+					<h1 className="text-[40px] main-font text-[#000000] font-semibold">
 						Governance
 					</h1>
 				</div>
@@ -38,7 +38,7 @@ const Governance = () => {
 							alt="people icon"
 							className="h-14 w-14 object-contain"
 						/>
-						<h1 className="text-[20px] md:text-[30px] font-[700]">
+						<h1 className="text-[20px] main-font md:text-[30px] font-[700]">
 							1. BOARD MEMBERS
 						</h1>
 					</div>
@@ -55,7 +55,7 @@ const Governance = () => {
 							alt="people icon"
 							className="h-14 w-14 object-contain"
 						/>
-						<h1 className="text-[20px] md:text-[30px] font-[700]">
+						<h1 className="text-[20px] main-font md:text-[30px] font-[700]">
 							2. INTERNAL AUDIT
 						</h1>
 					</div>
@@ -72,7 +72,7 @@ const Governance = () => {
 							alt="people icon"
 							className="h-14 w-14 object-contain"
 						/>
-						<h1 className="text-[20px] md:text-[30px] font-[700]">
+						<h1 className="text-[20px] main-font md:text-[30px] font-[700]">
 							3. TRANSPARENCY AND DISCLOSURE
 						</h1>
 					</div>
@@ -90,7 +90,7 @@ const Governance = () => {
 							alt="people icon"
 							className="h-14 w-14 object-contain"
 						/>
-						<h1 className="text-[20px] md:text-[30px] font-[700]">
+						<h1 className="text-[20px] main-font md:text-[30px] font-[700]">
 							4. SOCIAL RESPONSIBILITY
 						</h1>
 					</div>

@@ -4,7 +4,7 @@ import { allComps } from "../data/companies";
 const Company = () => {
 	const { company } = useParams();
 
-	const comp = allComps.find((comp) => comp.id === +company);
+	const comp = allComps.find((comp) => comp.id === company);
 
 	return (
 		<section className="flex flex-col justify-center items-center gap-8 my-[2rem] px-[1rem] lg:px-[7rem]">
@@ -16,7 +16,7 @@ const Company = () => {
 				/>
 			</div>
 			<div className="mt-[-5rem]">
-				<h1 className="text-[#128C76] text-[30px] md:text-[50px]">
+				<h1 className="text-[#128C76] main-font text-[30px] md:text-[50px]">
 					{comp.title}
 				</h1>
 			</div>

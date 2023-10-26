@@ -5,7 +5,7 @@ const Subsidiaries = () => {
 	return (
 		<section className="px-4 lg:py-[2rem] lg:px-[6rem]">
 			<div className="text-left pt-8 md:pt-[12rem] xl:p-0">
-				<h1 className="mb-8 text-[48px] text-[#333333] leading-[64px] font-semibold">
+				<h1 className="mb-8 text-[35px] main-font text-center text-[#333333] leading-[64px] font-semibold">
 					Subsidiaries
 				</h1>
 			</div>

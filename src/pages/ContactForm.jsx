@@ -37,7 +37,7 @@ const ContactForm = () => {
 				<img src={mail} alt="mail image" className="w-full h-auto" />
 			</div>
 			<div className="p-6 lg:p-0 w-full sm:w-[70%] xl:w-[50%] text-center">
-				<h3 className="text-[30px] text-[#128C76] font-bold mb-4">
+				<h3 className="text-[30px] main-font text-[#128C76] font-bold mb-4">
 					Get In Touch!
 				</h3>
 				<form

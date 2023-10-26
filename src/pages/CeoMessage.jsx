@@ -2,7 +2,7 @@ const CeoMessage = () => {
 	return (
 		<section className="p-0 sm:p-[4rem] ceoBg">
 			<div className="text-center lg:text-left mt-[-2rem]">
-				<h1 className="mb-[1rem] mt-[2rem] pt-[2rem] text-[25px] lg:text-[40px] text-[#FFFFFF] font-semibold">
+				<h1 className="mb-[1rem] main-font mt-[2rem] pt-[2rem] text-[25px] lg:text-[40px] text-[#FFFFFF] font-semibold">
 					CEO Message
 				</h1>
 				<p className="px-[1rem] lg:px-0 text-[18px] lg:text-[25px]  text-[#FFFFFF] text-justify">
