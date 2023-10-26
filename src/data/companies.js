@@ -62,7 +62,7 @@ export const SisCompsObjs = [
 		image: Lazar_image,
 		title: "Lazar",
 		mini_description:
-			"Lazar has occupied a prominent position and was able to build a long-standing name in the world of ceramics and sanitary ware and tiles that combines quality and luxury.",
+			"Lazar has occupied a prominent position and was able to build a long-standing name in the world of ceramics and sanitary ware and tiles",
 		full_description:
 			"Lazar has occupied a prominent position and was able to build a long-standing name in the world of ceramics and sanitary ware and tiles that combines quality and luxury. We meet the needs and desires of our customers who have refined taste by providing the largest selection of ceramic and porcelain products with the finest materials and the latest international designs, with our commitment to providing distinguished services to gain the trust of our customers. All of this stems from our vision, through which we seek to elevate the customer’s taste and to be the symbol of the high-end decorations and designs of our products. Because we believe in the importance of our customers, whom we consider success partners, we have been keen since our inception on pre- and after-sales services.",
 		role: "Sanitary Ware , ceramics and Tiles",
