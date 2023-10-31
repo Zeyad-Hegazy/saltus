@@ -25,7 +25,7 @@ const SisComps = () => {
 				{SisCompsObjs.map((comp) => (
 					<Card
 						key={comp.id}
-						className="h-[28rem] overflow-hidden"
+						className="md:h-[28rem]"
 						title={comp.title}
 						image={comp.image}
 						description={comp.mini_description}

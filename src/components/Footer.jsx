@@ -44,16 +44,9 @@ const Footer = () => {
 							onClick={() => window.scrollTo(0, 0)}
 						/>
 					</div>
-					<div className="w-full flex flex-col lg:flex-row justify-between items-center gap-[3rem] xl:gap-0 lg:px-[3rem]">
-						<div className="pl-0 order-[-1] lg:order-none flex justify-center items-center">
-							<Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
-								<button className="w-full xl:w-full px-[4rem] xl:px-[10rem] py-4 bg-[#0c5f50] text-white font-semibold rounded-[15px]">
-									Contact us
-								</button>
-							</Link>
-						</div>
-						<div className="text-[#333333] mb-[5rem] lg:mb-0">
-							<p className="w-full flex items-center gap-4 text-[#0c5f50]">
+					<div className="w-full flex flex-col lg:flex-row justify-center items-center gap-[3rem] xl:gap-0 lg:px-[3rem]">
+						<div className="text-[#333333] mb-[5rem] lg:mb-0 flex flex-col lg:flex-row w-full  justify-center items-center gap-[2rem]">
+							<p className="w-fit flex items-center gap-4 text-[#0c5f50]">
 								<img
 									src={location}
 									alt="location icon"
@@ -61,14 +54,16 @@ const Footer = () => {
 								/>
 								Olaya Street, Riyadh , Saudi Arabia
 							</p>
-							<p className="w-full flex items-center gap-4 mt-4 text-[#0c5f50]">
-								<img
-									src={sms}
-									alt="sms icon"
-									className="w-6 h-6 object-contain"
-								/>
-								info@saltusintgrated.com
-							</p>
+							<a href="mailto:jamal@saltusintgrated.com">
+								<p className="w-fit flex items-center gap-4 text-[#0c5f50]">
+									<img
+										src={sms}
+										alt="sms icon"
+										className="w-6 h-6 object-contain"
+									/>
+									jamal@saltusintgrated.com
+								</p>
+							</a>
 						</div>
 					</div>
 					<div className="text-[#333333] mb-[-20px]">

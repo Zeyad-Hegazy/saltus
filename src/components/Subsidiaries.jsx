@@ -13,7 +13,7 @@ const Subsidiaries = () => {
 				{SubsidObjs.map((comp) => (
 					<Card
 						key={comp.id}
-						className="lg:w-[40%] h-[32rem] overflow-hidden"
+						className="lg:w-[40%] sm:h-[35rem] xl:h-[32rem]"
 						title={comp.title}
 						image={comp.image}
 						description={comp.mini_description}
