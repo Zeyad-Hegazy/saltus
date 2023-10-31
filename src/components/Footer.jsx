@@ -22,7 +22,7 @@ const Footer = () => {
 								<Link to="/about" onClick={() => window.scrollTo(0, 0)}>
 									<p className="font-medium text-center">About us</p>
 								</Link>
-								<Link to="/ceo-message" onClick={() => window.scrollTo(0, 0)}>
+								<Link to="/ceoMessage" onClick={() => window.scrollTo(0, 0)}>
 									<p className="font-medium text-center">CEO Message</p>
 								</Link>
 								<Link to="/contact" onClick={() => window.scrollTo(0, 0)}>

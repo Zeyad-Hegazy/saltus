@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/images/logo.webp";
+import { NavLink } from "react-router-dom";
 import menu from "../assets/icons/menu.webp";
 import close from "../assets/icons/close.webp";
 
@@ -48,7 +47,7 @@ const Navbar = () => {
 									About Us
 								</NavLink>
 								<NavLink
-									to="/ceo-message"
+									to="/ceoMessage"
 									className={({ isActive }) =>
 										`${isActive ? "bg-[#128c76] text-white" : ""} ${linkClass}`
 									}
